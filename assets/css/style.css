@@ -4,21 +4,23 @@
   }
 
 body{
-    background-color: #cbcacc;
+    background-color: #545455;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     text-align: center;
 }
 
 div{
-    width: 85%;
-    padding: 25px;
-    border-style: solid;
-    margin: 10px auto;
-    color: rgb(105, 105, 105);
-    background-color: rgb(248, 248, 238);
+    width: 100%;
+    padding: 10px;
+    margin: 5px auto;
+    background-color: rgb(105, 105, 105);
 }
 
+.header{
+    background-color: rgb(248, 248, 238);
+    color:rgb(105, 105, 105);
+}
 .clearfix::after {
     content: " ";
     display: block;
@@ -27,18 +29,17 @@ div{
 
   .container {
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 40px;
     width: 950px;
     color: white;
     font-size: 1.25em;
   }
 
 section{
-    width:50%;
+    width:52%;
     height: 250px;
     padding: 25px;
-    border-style: solid;
-    margin: 10px 5px;
+    margin: 10px 0px;
     color: rgb(105, 105, 105);
     text-align: center;
     background-color: rgb(248, 248, 238);
@@ -47,22 +48,30 @@ section{
 
 article{
     display: block;
-    width:80%;
-    height: 130px;
+    width:100%;
+    height: 174px;
     padding: 5px;
-    border-style: solid;
-    margin: 10px 5px;
+    margin: 6px 5px;
     color: rgb(248, 248, 238);
     background-color: rgb(105, 105, 105);
     float: left;
 }
 
-p{
-    width: 80%;
-    height: 130px;
+h3{
+    width:95%;
+    height: 48px;
     padding: 5px;
-    border-style: solid;
-    margin: 10px 5px;
+    margin: 5px 5px;
+    color: rgb(105, 105, 105);
+    background-color: rgb(248, 248, 238);
+    float: left;    
+}
+
+p{
+    width: 95%;
+    height: 55px;
+    padding: 5px;
+    margin: 5px 5px;
     color:  rgb(105, 105, 105);
     background-color: rgb(248, 248, 238);
     float: left;    
@@ -72,7 +81,6 @@ aside{
     width:45%;
     height: 250px;
     padding: 25px;
-    border-style: solid;
     margin: 10px auto;
     color: rgb(105, 105, 105);
     background-color: rgb(248, 248, 238);
@@ -80,9 +88,8 @@ aside{
 }
 
 footer{
-    width: 65%;
+    width: 63%;
     padding: 25px;
-    border-style: solid;
     margin: 10px auto;
     color: rgb(105, 105, 105);
     background-color: rgb(248, 248, 238);   
